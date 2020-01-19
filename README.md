@@ -41,31 +41,16 @@ In the images below are provided two examples of two patterns. On the left can b
 
 
 <p float="left">
-  <img src="./img/rgb_cuda.jpg" width="100" />
-  <img src="./img/rgb_cuda.jpg" width="100" /> 
-  <img src="./img/rgb_cuda.jpg" width="100" />
+  <img src="./img/rgb_cuda.jpg" width="350" height="350" />
+  <img src="./img/rgb_old.jpg" width="350" height="300" /> 
 </p>
-
-
-<div class="row">
-  <div class="column">
-    <img src="./img/rgb_cuda.jpg" width="350" height="350" >
-  </div>
-  <div class="column">
-    <img src="./img/rgb_old.jpg" width="350" height="300">
-  </div>
-</div>
 
 *RGB pattern, Sequential and Parallel version*
 
-<div class="row">
-  <div class="column">
-    <img src="./img/rand10k_cuda.jpg" width="300" height="300">
-  </div>
-  <div class="column">
-    <img src="./img/rand10k_old.jpg" width="300" height="300">
-  </div>
-</div>
+<p float="left">
+  <img src="./img/rand10k_cuda.jpg" width="300" height="300" />
+  <img src="./img/rand10k_old.jpg" width="300" height="300" /> 
+</p>
 
 *Rand10k pattern, Sequential and Parallel version*
 
