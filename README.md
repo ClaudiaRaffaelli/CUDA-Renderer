@@ -41,10 +41,10 @@ In the images below are provided two examples of two patterns. On the left can b
 
 <div class="row">
   <div class="column">
-    <img src="./img/rgb_cuda.jpg" width="400" height="400" >
+    <img src="./img/rgb_cuda.jpg" width="350" height="350" >
   </div>
   <div class="column">
-    <img src="./img/rgb_old.jpg" width="400" height="350">
+    <img src="./img/rgb_old.jpg" width="350" height="200">
   </div>
 </div>
 
@@ -52,10 +52,10 @@ In the images below are provided two examples of two patterns. On the left can b
 
 <div class="row">
   <div class="column">
-    <img src="./img/rand10k_cuda.jpg" width="400" height="400">
+    <img src="./img/rand10k_cuda.jpg" width="300" height="300">
   </div>
   <div class="column">
-    <img src="./img/rand10k_old.jpg" width="400" height="400">
+    <img src="./img/rand10k_old.jpg" width="300" height="300">
   </div>
 </div>
 
