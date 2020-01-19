@@ -39,10 +39,29 @@ More specifically the Cuda implementation must maintain two invariants that are 
 
 In the images below are provided two examples of two patterns. On the left can be found the sequential version of the code and on the right the wrong implementation of the Cuda renderer. Comparing the two images can be spotted clearly the differences caused by the lack of atomicity and order.
 
-![rgb_cuda](./img/rgb_cuda.jpg)
-![rgb_old](./img/rgb_old.jpg)
-![rand10k_cuda](./img/rand10k_cuda.jpg)
-![rand10k_old](./img/rand10k_old.jpg)
+
+<div class="row">
+  <div class="column">
+    <img src="./img/rgb_cuda.jpg" width="400" height="400" >
+  </div>
+  <div class="column">
+    <img src="./img/rgb_old.jpg" width="400" height="350">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="./img/rand10k_cuda.jpg" width="400" height="400">
+  </div>
+  <div class="column">
+    <img src="./img/rand10k_old.jpg" width="400" height="400">
+  </div>
+</div>
+
+
+
+
 
 ## Solution
 
