@@ -32,7 +32,7 @@ LDFRAMEWORKS := $(addprefix -framework , $(FRAMEWORKS))
 NVCC=nvcc
 
 OBJS=$(OBJDIR)/main.o $(OBJDIR)/display.o $(OBJDIR)/benchmark.o $(OBJDIR)/refRenderer.o \
-     $(OBJDIR)/cudaRenderer.o $(OBJDIR)/noise.o $(OBJDIR)/ppm.o $(OBJDIR)/sceneLoader.o
+     $(OBJDIR)/cudaRenderer.o $(OBJDIR)/ppm.o $(OBJDIR)/sceneLoader.o
 
 
 .PHONY: dirs clean
